@@ -1,0 +1,126 @@
+@media screen and (min-width:50px)
+{
+    .div-height {
+        height: 52rem;
+    }
+    #contact-us .contactus .big-map  {
+        width: 100%;
+        height: 52rem;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 1024px)
+{
+    .div-height {
+        height: 85vh;
+    }
+    #contact-us .contactus .big-map  {
+        width: 100%;
+        height: 85vh;
+        position: absolute;
+    }
+}
+
+#contact-us .contactus .card {
+    top: 80px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    -webkit-transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+    -webkit-transition: box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1);
+    transition: box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1);
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.card-contact .card-header {
+    margin: 15px;
+    border-radius: 3px;
+    padding: 15px 0 0;
+    background-color: #fff;
+    border: 0;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.card-contact .card-header .card-title {
+    color: #66615b;
+    margin-top: 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-title, .card-title a, .footer-big h4, .footer-big h4 a, .footer-big h5, .footer-big h5 a, .footer-brand, .footer-brand a, .info-title, .info-title a, .media .media-heading, .media .media-heading a, .title, .title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.info-horizontal {
+    text-align: left;
+    margin-top: 0;
+}
+.info {
+    padding: 30px 0;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.info-horizontal .icon {
+
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 2.5em;
+
+}
+
+.description {
+    color: #9a9a9a;
+}
+
+.info-horizontal .description {
+    overflow: hidden;
+}
+
+.info-horizontal {
+    text-align: left;
+}
+
+#contact-us {
+    padding-top: 0px;
+}

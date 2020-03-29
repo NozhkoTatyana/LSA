@@ -1,0 +1,33 @@
+    .video {
+        width: 95%;
+        height: 95%;
+        overflow: hidden;
+        /* object-fit: none; */
+        object-position: 100% 100%;
+        transition: 1s width, 1s height;
+    }
+    
+    .video:hover,
+    .none:focus {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-wrapper-m {
+        overflow: hidden;
+    }
+    
+    .inner-img-m {
+        transition: 0.3s;
+    }
+    
+    .inner-img-m:hover {
+        transform: scale(1.1);
+    }
+    /* Other styling elements, that are not necessary for the example */
+    
+    .img-wrapper-m {
+        display: inline-block;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }

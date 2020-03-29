@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/favicons//apple-icon.png">
+    <link rel="apple-touch-icon" href="/static/img/favicons/logo192.png" />
+    <link rel="apple-touch-icon" href="/static/img/favicons/logo512.png" />
+    <link rel="icon" type="image/png" href="/static/img/favicons//favicon.png">
+    <link rel="shortcut icon" sizes="64x64" href="/static/img/favicons//favicon.ico" />
+    <link rel="shortcut icon" sizes="48x48" href="/static/img/favicons//favicon48.ico" />
+    <link rel="shortcut icon" sizes="32x32" href="/static/img/favicons//favicon32.ico" />
+    <link rel="shortcut icon" sizes="16x16" href="/static/img/favicons//favicon16.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Лаборатория сенсорного анализа ОНАПТ
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/css/paper-kit.min.css?v=2.3.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="/static/demo/demo.css" rel="stylesheet" />
+
+    <link href="/static/css/footer.css" rel="stylesheet" />
+    <link href="/static/css/media-query.css" rel="stylesheet" />
+    <link href="/static/css/map.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/css/google-translate.css">
+
+</head>
+
+<body class="index-page sidebar-collapse page_fix">
+    <!-- Top Nav -->
+    <div style='z-index: 2; position: absolute;' class='fixed-top'>
+        <footer id='top-footer' style='background: transparent; z-index: 2; padding: 0;' class='footer footer-big footer-black nav-down'>
+            <div class='container'>
+                <div class='row'>
+                    <nav class='footer-nav'>
+                        <div style='padding: 7px 0 0 0'>
+                            <a id='aFooterNav' id='brand' style='font-weight: 600;' href='/' target='_self' class='mr-1' title='Лаборатория сенсорного анализа ОНАПТ' data-toggle="tooltip" data-placement="bottom">
+                                LSA ONAFT
+                            </a>
+                        </div>
+                    </nav>
+                    <div class='credits ml-auto'>
+                        <nav class='footer-nav'>
+                            <ul>
+                                <li>
+                                    <a id='aFooterNav' title='Like us on Facebook' data-toggle="tooltip" data-placement="bottom" href="https://www.facebook.com/groups/1887286424849270/?ref=share" target="_blank" class="mr-1">
+                                        <i class='fa fa-facebook-square'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id='aFooterNav' title='Follow us on Instagram' data-toggle="tooltip" data-placement="bottom" href="https://www.instagram.com/lsa_onaft/" target="_blank" class="mr-1">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li style='width: 115px'>
+                                    <div class="form-group" style='margin-top: 5px;'>
+                                        <select id='select-language' class='selectpicker' data-size='3' data-style="btn btn-outline-neutral">
+                                            <option value="ru">RU</option>
+                                            <option value="ukr">UKR</option>
+                                            <option value="eng">ENG</option>
+                                            >
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End Top Nav -->
+
+    <!-- Header -->
+    <div class="page-header section-dark" data-parallax="true" style="background-image: url('/static/img/main.jpg');">
+        <img id='picOfWine' style='margin: 70px 0 0 0; width: 28vh' src='/static/img/Бокал.gif'>
+        <div class="filter">
+        </div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    <div class='motto text-center'>
+                        <h1 style='font-size: 5.5vmin; font-weight: 300; line-height: 1.2; text-transform: uppercase;'>ЛАБОРАТОРИЯ </br><span style='text-transform: uppercase; font-size: 4.5vmin; font-weight: 300'> СЕНСОРНОГО АНАЛИЗА ОНАПТ</span></h1>
+                    </div>
+                </div>
+                <h2 style='font-size: 2.25vmin;' class="presentation-subtitle text-center">Создана при содействии семьи Иукуридзе</h2>
+                <!-- <h2 style='font-size: 2.25vmin;' class="presentation-subtitle text-center">Cоздана при поддержке председателя правления компании ТОВ «ПТК Шабо»</h2> -->
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <div class='wrapper'>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg nav-down bg-primary sticky-top">
+            <div class="container">
+                <div class="navbar-translate">
+                    <a class="navbar-brand" href="#">Меню</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-primary">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'articles_list' %}">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about_us' %}">О нас</a>
+                        </li>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Учебная
+                                деятельность</a>
+                            <ul class="dropdown-menu dropdown-info dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <li class="dropdown-header">Учебная деятельность</li>
+                                <a class="dropdown-item" href="#educational-program">Образовательная программа</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="{% url 'training' %}">Повышение квалификации</a>
+                            </ul>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Научная
+                                деятельность</a>
+                            <ul class="dropdown-menu dropdown-info dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <li class="dropdown-header">Научная деятельность</li>
+                                <a class="dropdown-item" href="#pk">Проекты</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#pk">R&D-проекты</a>
+                            </ul>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Архив</a>
+                            <ul class="dropdown-menu dropdown-info dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <li class="dropdown-header">Архив</li>
+                                <a class="dropdown-item" href="/photoGallery">Фотогалерея</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="{% url 'video_list' %}">Видеогалерея</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="{% url 'articles_list' %}">Новости и анонсы</a>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'contacts' %}">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#' data-toggle="modal" data-target="#feedback-modal">Обратная связь</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <div id='educational-program'>
+            <div id='browser-view-display' class='section text-center' style='padding: 70px 0 0 0'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col ml-auto mr-auto col-md-8'>
+                            <h2 class='title'>Образовательная программа</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='mobile-view-display' class='description-areas' id='description-areas'>
+                <div class='container' style='max-width: 1400px;'>
+                    <div class='section text-center' style='padding: 0'>
+                        <div class='container'>
+                            <div class='row'>
+                                <div class='col ml-auto mr-auto col-md-8'>
+                                    <h2 class='title'>Образовательная программа</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <div class="nav-tabs-navigation" style='border-bottom: 1px solid #f1eae0;'>
+                            <div class="nav-tabs-wrapper">
+                                <ul id="tabs" class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#working-program" role="tab">Рабочая</br>программа</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#training-program" role="tab">Учебная</br>программа</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="my-tab-content" class="tab-content text-center">
+                <div class="tab-pane active" id="working-program" role="tabpanel">
+                    <div class='container'>
+                        <div class='col-md-12'>
+                            <div class='row'>
+                                <div class='col-md-2'></div>
+                                <div class='col-md-4'>
+                                    <div class='info'>
+                                        <div class="icon icon-info">
+                                            <i class="nc-icon">
+                                                        <img src='https://img.icons8.com/cute-clipart/64/000000/agreement.png'>
+                                                    </i>
+                                        </div>
+                                        <div class="description">
+                                            <h4 class="info-title">WORD</h4>
+                                            <p class="description">
+                                                Скачать документ в формате WORD
+                                            </p>
+                                            <a download href="/static/files/РП бакалавр (магистр).doc" class="btn btn-link btn-danger">Скачать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-4'>
+                                    <div class='info'>
+                                        <div class="icon icon-info">
+                                            <i class="nc-icon">
+                                                <img src='https://img.icons8.com/cute-clipart/64/000000/pdf.png'>
+                                            </i>
+                                        </div>
+                                        <div class="description">
+                                            <h4 class="info-title">PDF</h4>
+                                            <p class="description">
+                                                Скачать документ в формате PDF
+                                            </p>
+                                            <a download href="/static/files/РП бакалавр (магистр).pdf" class="btn btn-link btn-danger">Скачать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='section section-gray'>
+                        <div class='container'>
+                            <div class='col-md-12'>
+                                <div style='padding: 30px 0'>
+                                    <iframe src="/static/files/РП бакалавр (магистр).pdf" class='card' style='width: 100%; height: 800px; border: none'></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="training-program" role="tabpanel">
+                    <div class='container'>
+                        <div class='col-md-12'>
+                            <div class='row'>
+                                <div class='col-md-2'></div>
+                                <div class='col-md-4'>
+                                    <div class='info'>
+                                        <div class="icon icon-info">
+                                            <i class="nc-icon">
+                                                <img src='https://img.icons8.com/cute-clipart/64/000000/agreement.png'>
+                                            </i>
+                                        </div>
+                                        <div class="description">
+                                            <h4 class="info-title">WORD</h4>
+                                            <p class="description">
+                                                Скачать документ в формате WORD
+                                            </p>
+                                            <a download href="/static/files/Навчальна програма магистры СА.docx" class="btn btn-link btn-danger">Скачать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-4'>
+                                    <div class='info'>
+                                        <div class="icon icon-info">
+                                            <i class="nc-icon">
+                                                <img src='https://img.icons8.com/cute-clipart/64/000000/pdf.png'>
+                                            </i>
+                                        </div>
+                                        <div class="description">
+                                            <h4 class="info-title">PDF</h4>
+                                            <p class="description">
+                                                Скачать документ в формате PDF
+                                            </p>
+                                            <a download href="/static/files/Навчальна програма магистры СА.pdf" class="btn btn-link btn-danger">Скачать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='section section-gray'>
+                        <div class='container'>
+                            <div class='col-md-12'>
+                                <div style='padding: 30px 0'>
+                                    <iframe src="/static/files/Навчальна програма магистры СА.pdf" class='card' style='width: 100%; height: 800px; border: none'></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- Обратная связь -->
+    <div id='feedback'>
+        <!-- Modal -->
+        <div class="modal fade" id="feedback-modal" tabindex="-1" role="dialog" aria-labelledby="feedback-modal-title" style="padding-left: 0">
+            <div class="modal-dialog" role="document" style='max-width: 545px'>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="feedback-modal-title">Обратная связь</h5>
+                        <button id='close' type="reset" form='feedback-form' class="close" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Форма -->
+                        <form id='feedback-form' method="POST" novalidate>
+                            <div class="form-group">
+                                <label for="name">
+                                        ФИО/Организация <span style='color: #F7765F'>*</span>
+                                    </label>
+                                <div id='name-input-group' class='input-group'>
+                                    <div class='input-group-prepend'>
+                                        <span class='input-group-text' style='border-left: ""'>
+                                                <i class='nc-icon nc-single-02'></i>
+                                            </span>
+                                    </div>
+                                    <input type="text" class="form-control" id="name" oninput="validateName()" placeholder="ФИО или организация">
+                                </div>
+                                <small id='small-name' class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="job">
+                                        Должность
+                                    </label>
+                                <div class='input-group'>
+                                    <div class='input-group-prepend'>
+                                        <span class='input-group-text'>
+                                                <i class='nc-icon nc-badge'></i>
+                                            </span>
+                                    </div>
+                                    <input type="text" class="form-control" id="job" placeholder="Должность">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <label for="inputEmail">
+                                            Email <span style='color: #F7765F'>*</span>
+                                        </label>
+                                    <div id='email-input-group' class='input-group'>
+                                        <div class='input-group-prepend'>
+                                            <span class='input-group-text'>
+                                                    <i class='nc-icon nc-email-85'></i>
+                                                </span>
+                                        </div>
+                                        <input type="email" class="form-control" id="inputEmail" oninput="validateEmail()" aria-describedby="helper" placeholder="name@example.com">
+                                    </div>
+                                    <small id='small-email' class="form-text text-danger"></small>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="inputPhone">Телефон</label>
+                                    <div class='input-group'>
+                                        <div class='input-group-prepend'>
+                                            <span class='input-group-text'>
+                                                    <i class='nc-icon nc-mobile'></i>
+                                                </span>
+                                        </div>
+                                        <input type="text" class="form-control" id="inputPhone" aria-describedby="helper" placeholder="+38 (0__) ___ __ __">
+                                    </div>
+                                </div>
+                                <div class="col col-md-12 form-group" style="margin-top: -1rem;">
+                                    <small id="helper" class="form-text text-muted">Мы
+                                            никому не сообщим Ваши контактные данные.</small>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="inputText">
+                                        Сообщение <span style='color: #F7765F'>*</span>
+                                    </label>
+                                <textarea class="form-control" id='inputText' oninput="validateText()" placeholder='Введите Ваше обращение' rows="3"></textarea>
+                                <small id='small-input-text' class="form-text text-danger"></small>
+                            </div>
+                            <span id='submitted' style='color:rgb(134, 217, 171); font-weight: 500;'></span>
+                        </form>
+                        <!-- Конец формы -->
+                    </div>
+                    <!-- Кнопки формы -->
+                    <div class="modal-footer">
+                        <div class="left-side">
+                            <button id='submit' type="submit" class="btn btn-default btn-link" form='feedback-form' value="Submit">Отправить</button>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-side">
+                            <button id='reset' type='reset' form='feedback-form' class="btn btn-danger btn-link">Закрыть</button>
+                        </div>
+                    </div>
+                    <!-- Кнопки формы -->
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+    </div>
+    <!-- End Обратная свзяь  -->
+
+    <!-- Footer -->
+    <div style='width: 100%; position: static; bottom: 0px'>
+        <footer class="footer footer-black footer-white">
+            <div class="container">
+                <div class="row" style='display: flex; justify-content: center;'>
+                    <span class="copyright" style='line-height: 50px;'>
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>&nbsp;<i class="fa fa-heart heart"></i> by Dzhydzhula Mariia and Nozhko
+                            Tatiana
+                        </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End Footer -->
+
+    </div>
+
+    <!--   Core JS Files   -->
+    <script src="/static/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="/static/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="/static/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="/static/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="/static/js/plugins/moment.min.js"></script>
+    <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+    <script src="/static/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script src="/static/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+    <!--	Plugin for Datetimepicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+    <script src="/static/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!--  Vertical nav - dots -->
+    <script src="/static/demo/vertical-nav.js" type="text/javascript"></script>
+    <!--  Photoswipe files -->
+    <script src="/static/js/plugins/photo_swipe/photoswipe.min.js"></script>
+    <script src="/static/js/plugins/photo_swipe/photoswipe-ui-default.min.js"></script>
+    <script src="/static/js/plugins/photo_swipe/init-gallery.js"></script>
+    <!--  for Jasny fileupload -->
+    <script src="/static/js/plugins/jasny-bootstrap.min.js"></script>
+    <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
+    <script src="/static/js/paper-kit.min.js?v=2.3.0" type="text/javascript"></script>
+    <!--  Plugin for presentation page - isometric cards  -->
+    <script src="/static/js/plugins/presentation-page/main.js"></script>
+    <!-- Sharrre libray -->
+    <script src="/static/demo/jquery.sharrre.js"></script>
+
+    <!-- Костомный googleTranslate -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/static/js/google-translate.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+    <!-- End Костомный googleTranslate -->
+
+    <!-- Feedback -->
+    <script src='/static/js/feedback.js'></script>
+    <script src='/static/js/maskedinput/jquery.maskedinput.min.js'></script>
+    <!-- End Feedback -->
+
+    <!-- Feedback -->
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            $('#reset').click(function() {
+                $('#feedback-modal').modal('hide');
+            });
+            $('#close').click(function() {
+                $('#feedback-modal').modal('hide');
+            });
+        });
+
+        document.getElementById("reset").onclick = function(e) {
+            document.getElementById("submitted").innerHTML = "";
+        }
+
+        document.getElementById("close").onclick = function(e) {
+            document.getElementById("submitted").innerHTML = "";
+        }
+
+        $(function() {
+            $("#inputPhone").mask("+38 (099) 999 99 99");
+        });
+    </script>
+    <!-- End Feedback -->
+
+</body>
+
+</html>

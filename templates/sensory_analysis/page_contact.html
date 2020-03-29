@@ -1,0 +1,25 @@
+{% block h1 %}
+Написать мне
+{% endblock %}
+{% block subhead %}
+Есть вопросы? У меня есть ответы.
+{% endblock %}
+
+{% block content1 %}
+     <div class="post-preview">
+     {% if sent %}
+        <h1>Письмо отправленно!</h1>
+        <p>
+            Спасибо вам большое! Я свяжусь с вами сразу как только прочту письмо.
+        </p>
+     {% else %}
+        <div class="post-preview">
+            <form method="POST" class="post-form"  action=".">
+                {% csrf_token %}
+                {{ form }}
+                <button type="submit" class="btn btn-default btn-sm">Отправить</button>
+            </form>
+        </div>
+     {% endif %}
+     </div>
+{% endblock %}

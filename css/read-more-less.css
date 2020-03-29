@@ -1,0 +1,29 @@
+.morecontent span {
+    display: none;
+}
+
+.morelink.active {
+    display: block;
+}
+
+.black {
+    color: black;
+    font-weight: 400;
+}
+
+.d-readmore {
+    line-height: 1.8;
+    min-height: 4px;
+}
+
+.d-readmore-2 {
+    line-height: 1.8;
+    min-height: 4px;
+    overflow: visible;
+}
+
+.d-readmore_btn {
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+}

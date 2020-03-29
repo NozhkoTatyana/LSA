@@ -1,0 +1,166 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    #picOfNews {
+        margin: 5px 25px;
+    }
+    #alertMobile,
+    #divAlertMobile {
+        visibility: hidden;
+        display: none;
+    }
+    #mobile-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 70px 0px
+    }
+    #contact-description {
+        padding: 0px 0px 30px 0px
+    }
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #picOfNews {
+        margin: 5px 25px;
+    }
+    #alertMobile,
+    #divAlertMobile {
+        visibility: hidden;
+        display: none;
+    }
+    #mobile-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 70px 0px
+    }
+    #contact-description {
+        padding: 0px 0px 30px 0px
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #picOfNews {
+        margin: 5px 25px;
+    }
+    #alertMobile,
+    #divAlertMobile {
+        visibility: hidden;
+        display: none;
+    }
+    #mobile-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 70px 0px
+    }
+    #contact-description {
+        padding: 0px 0px 30px 0px
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #picOfNews {
+        margin: 5px 25px;
+    }
+    #alertMobile,
+    #divAlertMobile {
+        visibility: hidden;
+        display: none;
+    }
+    #mobile-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 70px 0px
+    }
+    #contact-description {
+        padding: 0px 0px 30px 0px
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #picOfWine {
+        visibility: hidden;
+        display: none;
+    }
+    #picOfNews {
+        margin: 0 0 10px 0;
+    }
+    #alertDesktop {
+        visibility: hidden;
+        display: none;
+    }
+    #browser-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 0 0 70px 0
+    }
+    #contact-description {
+        padding: 0px 0px 30px 15px
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #picOfWine {
+        visibility: hidden;
+        display: none;
+    }
+    #picOfNews {
+        margin: 0 0 10px 0;
+    }
+    #alertDesktop {
+        visibility: hidden;
+        display: none;
+    }
+    #browser-view-display {
+        visibility: hidden;
+        display: none;
+    }
+    #titles {
+        padding: 0 0 70px 0
+    }
+    #contact-description {
+        padding: 0px 0px 30px 15px
+    }
+}

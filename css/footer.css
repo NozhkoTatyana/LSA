@@ -1,0 +1,613 @@
+#aFooterNav {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+#aFooterNav:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.footer nav>ul #aFooterNav:not(.btn) {
+    color: #ffffff;
+    font-weight: 600;
+    opacity: .8;
+    font-size: 17px;
+}
+
+.footer nav>ul #aFooterNav:not(.btn):hover,
+.footer nav>ul #aFooterNav:not(.btn):focus {
+    color: #ffffff;
+    opacity: 1;
+}
+
+
+/*.css-2b097c-container {*/
+
+
+/*    position: relative;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.footer-black, .footer-transparent, .subscribe-line-transparent {*/
+
+
+/*    color: #ddd;*/
+
+
+/*}*/
+
+
+/*.footer {*/
+
+
+/*    line-height: 36px;*/
+
+
+/*}*/
+
+
+/*.footer {*/
+
+
+/*    line-height: 20px;*/
+
+
+/*}*/
+
+
+/*body {*/
+
+
+/*    color: #66615b;*/
+
+
+/*    font-size: 14px;*/
+
+
+/*    font-weight: 300;*/
+
+
+/*    font-family: Montserrat,Helvetica,Arial,sans-serif;*/
+
+
+/*}*/
+
+
+/*body {*/
+
+
+/*    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;*/
+
+
+/*    font-size: 1rem;*/
+
+
+/*    font-weight: 400;*/
+
+
+/*    line-height: 1.5;*/
+
+
+/*    color: #212529;*/
+
+
+/*    text-align: left;*/
+
+
+/*}*/
+
+
+/*.css-2b097c-container {*/
+
+
+/*    position: relative;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.footer-black, .footer-transparent, .subscribe-line-transparent {*/
+
+
+/*    color: #ddd;*/
+
+
+/*}*/
+
+
+/*.footer {*/
+
+
+/*    line-height: 36px;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control, .react-select .react-select__control:hover {*/
+
+
+/*    border: 1px solid #e3e3e3;*/
+
+
+/*    box-shadow: none;*/
+
+
+/*    background-color: transparent;*/
+
+
+/*}*/
+
+
+/*.css-yk16xz-control {*/
+
+
+/*    -moz-box-align: center;*/
+
+
+/*    align-items: center;*/
+
+
+/*    background-color: rgb(255, 255, 255);*/
+
+
+/*    border-color: rgb(204, 204, 204);*/
+
+
+/*    border-radius: 4px;*/
+
+
+/*    border-style: solid;*/
+
+
+/*    border-width: 1px;*/
+
+
+/*    cursor: default;*/
+
+
+/*    display: flex;*/
+
+
+/*    flex-wrap: wrap;*/
+
+
+/*    -moz-box-pack: justify;*/
+
+
+/*    justify-content: space-between;*/
+
+
+/*    min-height: 38px;*/
+
+
+/*    outline: currentcolor none 0px !important;*/
+
+
+/*    position: relative;*/
+
+
+/*    transition: all 100ms ease 0s;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control, .react-select .react-select__control:hover {*/
+
+
+/*    border: 1px solid #e3e3e3;*/
+
+
+/*    box-shadow: none;*/
+
+
+/*    background-color: transparent;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control {*/
+
+
+/*    border-radius: 4px;*/
+
+
+/*    min-height: 45px;*/
+
+
+/*    height: 45px;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*    border-collapse: separate;*/
+
+
+/*    min-width: 120px;*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+
+/*.css-yk16xz-control {*/
+
+
+/*    -moz-box-align: center;*/
+
+
+/*    align-items: center;*/
+
+
+/*    background-color: rgb(255, 255, 255);*/
+
+
+/*    border-color: rgb(204, 204, 204);*/
+
+
+/*    border-radius: 4px;*/
+
+
+/*    border-style: solid;*/
+
+
+/*    border-width: 1px;*/
+
+
+/*    cursor: default;*/
+
+
+/*    display: flex;*/
+
+
+/*    flex-wrap: wrap;*/
+
+
+/*    -moz-box-pack: justify;*/
+
+
+/*    justify-content: space-between;*/
+
+
+/*    min-height: 38px;*/
+
+
+/*    outline: currentcolor none 0px !important;*/
+
+
+/*    position: relative;*/
+
+
+/*    transition: all 100ms ease 0s;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/**, ::after, ::before {*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control .react-select__indicators, .react-select .react-select__control .react-select__value-container {*/
+
+
+/*    display: table-cell;*/
+
+
+/*}*/
+
+
+/*.css-1hwfws3 {*/
+
+
+/*    -moz-box-align: center;*/
+
+
+/*    align-items: center;*/
+
+
+/*    display: flex;*/
+
+
+/*    flex: 1 1 0%;*/
+
+
+/*    flex-wrap: wrap;*/
+
+
+/*    padding: 2px 8px;*/
+
+
+/*    position: relative;*/
+
+
+/*    overflow: hidden;*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.react-select.react-select-white .react-select__control .react-select__value-container--has-value .react-select__multi-value__label, .react-select.react-select-white .react-select__control .react-select__value-container--has-value .react-select__single-value {*/
+
+
+/*    color: #fff;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control .react-select__value-container--has-value .react-select__single-value {*/
+
+
+/*    top: 48%;*/
+
+
+/*    color: #333;*/
+
+
+/*}*/
+
+
+/*.css-1uccc91-singleValue {*/
+
+
+/*    color: rgb(51, 51, 51);*/
+
+
+/*    margin-left: 2px;*/
+
+
+/*    margin-right: 2px;*/
+
+
+/*    max-width: calc(100% - 8px);*/
+
+
+/*    overflow: hidden;*/
+
+
+/*    position: absolute;*/
+
+
+/*    text-overflow: ellipsis;*/
+
+
+/*    white-space: nowrap;*/
+
+
+/*    top: 50%;*/
+
+
+/*    transform: translateY(-50%);*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/**, ::after, ::before {*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control {*/
+
+
+/*    border-collapse: separate;*/
+
+
+/*}*/
+
+
+/*.css-yk16xz-control {*/
+
+
+/*    cursor: default;*/
+
+
+/*}*/
+
+
+/*.css-1g6gooi {*/
+
+
+/*    margin: 2px;*/
+
+
+/*    padding-bottom: 2px;*/
+
+
+/*    padding-top: 2px;*/
+
+
+/*    visibility: visible;*/
+
+
+/*    color: rgb(51, 51, 51);*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/**, ::after, ::before {*/
+
+
+/*    box-sizing: border-box;*/
+
+
+/*}*/
+
+
+/*.react-select .react-select__control {*/
+
+
+/*    border-collapse: separate;*/
+
+
+/*}*/
+
+
+/*.css-yk16xz-control {*/
+
+
+/*    cursor: default;*/
+
+
+/*}*/
+
+.footer-black,
+.footer-transparent,
+.subscribe-line-transparent {
+    background-color: #252422;
+    color: #DDDDDD;
+}
+
+.footer-black .links ul a:not(.btn),
+.footer-transparent .links ul a:not(.btn),
+.subscribe-line-transparent .links ul a:not(.btn) {
+    color: #A49E9E;
+}
+
+.footer-black .links ul a:not(.btn):hover,
+.footer-black .links ul a:not(.btn):focus,
+.footer-transparent .links ul a:not(.btn):hover,
+.subscribe-line-transparent .links ul a:not(.btn):hover,
+.footer-transparent .links ul a:not(.btn):focus,
+.subscribe-line-transparent .links ul a:not(.btn):focus {
+    color: #F1EAE0;
+}
+
+.footer-black .copyright,
+.footer-transparent .copyright,
+.subscribe-line-transparent .copyright {
+    color: #A49E9E;
+}
+
+.footer-black .copyright ul>li a:not(.btn),
+.footer-transparent .copyright ul>li a:not(.btn),
+.subscribe-line-transparent .copyright ul>li a:not(.btn) {
+    color: #A49E9E;
+}
+
+.footer-black hr,
+.footer-transparent hr,
+.subscribe-line-transparent hr {
+    border-color: #66615b;
+}
+
+.footer-transparent,
+.subscribe-line-transparent {
+    background-size: cover;
+    position: relative;
+}
+
+.footer-transparent .container,
+.subscribe-line-transparent .container {
+    z-index: 2;
+    position: relative;
+}
+
+.footer-transparent hr,
+.subscribe-line-transparent hr {
+    border-color: #A49E9E;
+}
+
+.footer-transparent .copyright,
+.subscribe-line-transparent .copyright {
+    color: #A49E9E;
+}
+
+.footer-transparent .copyright ul>li a:not(.btn),
+.subscribe-line-transparent .copyright ul>li a:not(.btn) {
+    color: #A49E9E;
+}
+
+.footer-transparent::after,
+.subscribe-line-transparent::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.5);
+    display: block;
+    content: "";
+    z-index: 1;
+}
+
+.footer-black,
+.footer-transparent,
+.subscribe-line-transparent {
+    background-color: #252422;
+    color: #DDDDDD;
+}
+
+.footer-black .links ul a:not(.btn),
+.footer-transparent .links ul a:not(.btn),
+.subscribe-line-transparent .links ul a:not(.btn) {
+    color: #A49E9E;
+}
+
+.footer-black .links ul a:not(.btn):hover,
+.footer-black .links ul a:not(.btn):focus,
+.footer-transparent .links ul a:not(.btn):hover,
+.subscribe-line-transparent .links ul a:not(.btn):hover,
+.footer-transparent .links ul a:not(.btn):focus,
+.subscribe-line-transparent .links ul a:not(.btn):focus {
+    color: #F1EAE0;
+}
+
+.footer-black .copyright,
+.footer-transparent .copyright,
+.subscribe-line-transparent .copyright {
+    color: #A49E9E;
+}
+
+.footer-black .copyright ul>li a:not(.btn),
+.footer-transparent .copyright ul>li a:not(.btn),
+.subscribe-line-transparent .copyright ul>li a:not(.btn) {
+    color: #A49E9E;
+}
+
+.footer-black hr,
+.footer-transparent hr,
+.subscribe-line-transparent hr {
+    border-color: #66615b;
+}
